@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sam/dev_ws/install/serial/include/**",
+        "/home/sam/dev_ws/install/realsense2_camera/include/**",
+        "/home/sam/dev_ws/install/realsense2_camera_msgs/include/**",
+        "/home/sam/dev_ws/install/diffdrive_arduino/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/sam/dev_ws/src/autonomous_mobile_robot/include/**",
+        "/home/sam/dev_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/sam/dev_ws/src/ros1_bridge/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
