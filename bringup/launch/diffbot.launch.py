@@ -28,7 +28,7 @@ def generate_launch_description():
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
             PathJoinSubstitution(
-                [FindPackageShare("diffdrive_arduino"), "urdf", "diffbot.urdf.xacro"]
+                [FindPackageShare("amr_description"), "urdf", "robot.urdf.xacro"]
             ),
         ]
     )
